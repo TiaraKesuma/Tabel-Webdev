@@ -48,7 +48,7 @@
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
-					<form method="post" action="tambah-data.php" class="d-flex flex-column mb-4">
+					<form method="post" action="tambah-data.php" class="d-flex flex-column mb-4 bg-accent-form">
 						<div class="d-flex justify-content-between">
 							<div class="form-group">
 								<label for="id">ID</label>

@@ -88,12 +88,18 @@
 							</div>
 							<div class="form-group">
 								<label for="posisi">Posisi</label>
-								<input type="text" name="posisi", value="<?php echo $role; ?>"/>
+								<select name = "posisi" class="form-control" aria-label="Default select example">
+  									<option value="MANAGER">MANAGER</option>
+  									<option value="SECRETARY">SECRETARY</option>
+  									<option value="OFFICE_BOY">OFFICE_BOY</option>
+									<option value="JANITOR">JANITOR</option>
+								</select>
+								<label class="bg-accent" for="posisi saat ini">Saat ini: <?php echo $role; ?></label>
 							</div>
 						</div>
 						<button type = "submit" class="btn btn-info align-self-end" name="update">Update</button>	
 					</form>
-          </div>
+          		</div>
 			</div>
 		</div>
 	</div>

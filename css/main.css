@@ -124,6 +124,9 @@ iframe {
 
 .wrap-table100 {
   width: 1170px;
+  background-color: #201250;
+  padding: 2rem 2rem;
+  border-radius: 10px;
 }
 
 table {
@@ -313,6 +316,18 @@ form{
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.bg-accent{
+  background-color: #495057;
+  padding:.35rem .50rem;
+  border-radius: 10px;
+}
+
+.bg-accent-form{
+  background-color: #40b1e6;
+  padding:1rem 2rem;
+  border-radius: 10px;
 }
 
 
