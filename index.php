@@ -64,7 +64,12 @@
 							</div>
 							<div class="form-group">
 								<label for="posisi">Posisi</label>
-								<input type="text" name="posisi"/>
+								<select class="form-control" name="pos">
+    								<option value="MANAGER">Manager</option>
+    								<option value="SECRETARY">Secretary</option>
+   									<option value="OFFICE_BOY">Office Boy</option>
+    								<option value="JANITOR">Janitor</option>
+  								</select>
 							</div>
 						</div>
 						<button class="btn btn-warning align-self-end">Tambah</button>	
