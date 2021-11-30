@@ -48,7 +48,8 @@
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
-					<form method="post" action="tambah-data.php" class="d-flex flex-column mb-4 bg-accent-form">
+					<iframe name="still" style="display:none;"></iframe>
+					<form method="post" action="tambah-data.php" class="d-flex flex-column mb-4 bg-accent-form" target="still">
 						<div class="d-flex justify-content-between">
 							<div class="form-group">
 								<label for="id">ID</label>
@@ -72,7 +73,7 @@
 							</select>
 							</div>
 						</div>
-						<button class="btn btn-warning align-self-end">Tambah</button>	
+						<button onclick="alert('Data berhasil ditambahkan')" class="btn btn-warning align-self-end">Tambah</button>	
 					</form>
 				
 				<table>
@@ -98,7 +99,7 @@
 										 <a href="edit.php?editid=<?php echo $person['id']; ?>"
 										 	class="btn btn-success">Edit</a>
 										 <a href="delete.php?deleteid=<?php echo $person['id']; ?>"
-										 	class="btn btn-danger">Delete</a>
+										 	class="btn btn-danger" onclick="return confirm('Hapus data employee?');" target="still">Delete</a>
 									 </td>
 								</tr>
 							<?php endforeach; ?>
