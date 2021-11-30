@@ -330,6 +330,13 @@ form{
   border-radius: 10px;
 }
 
+.whatevs{
+  margin-bottom: 20px;
+  color:#ff3333;
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 tbody{
   overflow-y: auto;

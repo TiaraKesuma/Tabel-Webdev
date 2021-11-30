@@ -48,6 +48,9 @@
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
+					<div>
+						<h1 class="whatevs">Employee Management System</h1>
+					</div>
 					<iframe name="still" style="display:none;"></iframe>
 					<form method="post" action="tambah-data.php" class="d-flex flex-column mb-4 bg-accent-form" target="still">
 						<div class="d-flex justify-content-between">
